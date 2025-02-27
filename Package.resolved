@@ -1,5 +1,5 @@
 {
-  "originHash" : "4a4410a8538ee0fbc01f5ad0f71e4c399bc991eb2017f4ce81bdab26c74594d2",
+  "originHash" : "6c2f387194c6cb613e7b80bd3f6e125ea4047ad2791d100bebe5a7c77b213c2f",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -130,10 +130,10 @@
     {
       "identity" : "openedx-app-foundation-ios",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/rnr/openedx-app-foundation-ios",
+      "location" : "https://github.com/openedx/openedx-app-foundation-ios.git",
       "state" : {
-        "branch" : "anton/plugins-experiments",
-        "revision" : "3283f2c01a8327a1ad71397a9a03226425d9eb4c"
+        "revision" : "d02b7b1226753950afa9bd0c5c6f810f7d386f8e",
+        "version" : "1.0.2"
       }
     },
     {
