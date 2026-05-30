@@ -11,7 +11,7 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 
       - name: Setup
         run:
@@ -27,7 +27,7 @@ jobs:
           swift PrepareSarifToUpload.swift
 
       - name: Upload report
-        uses: github/codeql-action/upload-sarif@v3
+        uses: github/codeql-action/upload-sarif@458d36d7d4f47d0dd16ca424c1d3cda0060f1360 # v3.35.5
         if: success() || failure()
         with:
           sarif_file: swiftlint.report.sarif
